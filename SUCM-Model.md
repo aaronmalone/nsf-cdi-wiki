@@ -48,5 +48,8 @@ Enter your inputs here.  Make sure to include:
 * Plant Online (?)
 * Price per generation unit (?)
 
+### NOTE to AMY on OUTPUT definitions
+You can specify JSON formatted (HashMap) data containers for the variable data such as plant generation, etc.  We have added a HashMap datatype to LAPIS to support cases such as this.
+
 ## USAGE EXAMPLE
 Provide a brief summary of the steps required to run your model and a code example (such as example inputs and expected output).
