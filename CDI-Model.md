@@ -15,27 +15,22 @@ Enter your inputs here.  Make sure to include:
   * static
   * date of base simulation [YYYY MM DD]
   * vector of integer
-
 * weekToSimulate
   * static
   * week number to simulate based on startDate
   * integer
-
 * location
   * static
   * State to simulate
   * String (ex. 'OH')  ? or float?
-
 * temperature
   * static
   * Hourly temperature data for week to simulate
   * vector of float
-
 * randomSeed
   * static
   * seed to use for random number generation
   * integer
-
 * price
   * static
   * prices for electricity
@@ -43,10 +38,10 @@ Enter your inputs here.  Make sure to include:
 
 ## OUTPUTS
 Enter your outputs here.  Make sure to include:
-* variable name
-* expected size and whether it is dynamic or static
-* short description
-* type (int, float, string)
+* demand
+  * static
+  * electricity demand
+  * float vector
 
 ## USAGE EXAMPLE
 Provide a brief summary of the steps required to run your model and a code example (such as example inputs and expected output).
