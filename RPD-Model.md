@@ -17,16 +17,13 @@ Enter your inputs here.  Make sure to include:
   * static size
   * start date of the simulation [YYYY MM DD]
   * vector<integer>
-
 * weekNumber 
   * static size (1)
   * week number from the startDate
   * integer
-
 * temperature
   * static size (?)
   * temperature from the weather model for the week to be simulated
-
 * householdCharacteristics (?)
 * occupantCharacteristics (?)
 
@@ -41,6 +38,9 @@ Enter your outputs here.  Make sure to include:
 ---
 *BehaviorPatterns
 *ApplianceInformation
+
+### NOTE to Matteo on INPUT/OUTPUT definitions
+You can specify JSON formatted (HashMap) data containers for the variable data such as plant generation, etc.  We have added a HashMap datatype to LAPIS to support cases such as this.
 
 ## USAGE EXAMPLE
 Provide a brief summary of the steps required to run your model and a code example (such as example inputs and expected output).
