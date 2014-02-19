@@ -36,8 +36,8 @@ Enter your outputs here.  Make sure to include:
 * type (int, float, string)
 
 ---
-*BehaviorPatterns
-*ApplianceInformation
+* BehaviorPatterns
+* ApplianceInformation
 
 
 ### NOTE to Matteo on OUTPUT definitions
