@@ -36,11 +36,8 @@ Enter your outputs here.  Make sure to include:
 * type (int, float, string)
 
 ---
-* BehaviorPatterns
-* ApplianceInformation
-
-### NOTE to Matteo on INPUT/OUTPUT definitions
-You can specify JSON formatted (HashMap) data containers for the variable data such as plant generation, etc.  We have added a HashMap datatype to LAPIS to support cases such as this.
+*BehaviorPatterns
+*ApplianceInformation
 
 ## USAGE EXAMPLE
 Provide a brief summary of the steps required to run your model and a code example (such as example inputs and expected output).
