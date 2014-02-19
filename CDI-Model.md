@@ -20,5 +20,7 @@ Enter your outputs here.  Make sure to include:
 ## USAGE EXAMPLE
 Provide a brief summary of the steps required to run your model and a code example (such as example inputs and expected output).
 
+<br>
+
 ##### CID-Specific Question from Aaron:
 Where does the **price** data for the CID model come from?
