@@ -1,10 +1,16 @@
-#Weather Model
+#SUCM Model
 
 ## Brief Description
 Enter your brief description here
 
 ## INPUTS
 Enter your inputs here.  Make sure to include:
+* variable name
+* expected size and whether it is dynamic or static
+* short description
+* type (int, float, string)
+
+---
 * variable name
 * expected size and whether it is dynamic or static
 * short description
