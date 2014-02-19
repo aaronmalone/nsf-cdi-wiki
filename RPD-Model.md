@@ -38,6 +38,10 @@ Enter your outputs here.  Make sure to include:
 ---
 * BehaviorPatterns
 * ApplianceInformation
+* demand
+  * static size ?
+  * residential electricity demand
+  * vector of float
 
 
 ### NOTE to Matteo on OUTPUT definitions
