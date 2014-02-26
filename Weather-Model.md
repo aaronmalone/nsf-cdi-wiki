@@ -1,9 +1,9 @@
 #Weather Model
 
 ## Brief Description
-Weather model is used to forecast temperature, solar radiation and wind speed for any location in the United States. There are two weather models, Base Weather Model and Interpolated Weather Model. The Base Weather Model forecasts the weather for 61 locations in the United States with an Vector Autoregression model. The Interpolated Weather Model forecasts the weather for other locastions by interpolation. 
+Weather model is used to forecast temperature, solar radiation and wind speed for any location in the United States. There are two weather models, Base Weather Model and Interpolated Weather Model. The Base Weather Model forecasts the weather for 61 locations in the United States with an Vector Autoregression model. The Interpolated Weather Model forecasts the weather for other locations by interpolation. 
 
-The latitudes and logitudes for the 61 locations in the Base Weather Model are：
+The latitudes and longitudes for the 61 locations in the Base Weather Model are：
 [  35.04	-106.62	]
 [	34.99	-101.9	]
 [	33.633	-84.433	]
