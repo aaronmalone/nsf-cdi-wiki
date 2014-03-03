@@ -12,7 +12,7 @@ In a future implementation, clients will be able to request calculations asynchr
 
 Clients must specify, in the request body, what values should be used as the inputs to the simulation function. Instead of passing values directly, clients will pass keys into the data-store by which the simulation function abstraction layer will retrieve the values to use. Clients must also pass the keys which the simulation function abstraction layer should use in storing the calculation output values in the database.
 
-```JSON
+```json
 {
   "model":"base-weather",
   "inputs":{
