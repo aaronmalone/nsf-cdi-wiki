@@ -22,7 +22,7 @@ An example:
     "startDate" : "branch01~subBranch02~startDate~0",
     "location" : "branch01~subBranch02~location~0",
     "temperature" : "branch01~subBranch02~temperature~7",
-    "randomSeed" : "branch01~subBranch02~randomSeeForCid~7"
+    "randomSeed" : "branch01~subBranch02~randomSeeForCid~7",
     "weekToSimulate" : "$timestep"
     },
   "outputs":{
