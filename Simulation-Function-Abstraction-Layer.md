@@ -12,15 +12,21 @@ In a future implementation, clients will be able to request calculations asynchr
 
 Clients must specify, in the request body, what values should be used as the inputs to the simulation function. Instead of passing values directly, clients will pass keys into the data-store by which the simulation function abstraction layer will retrieve the values to use. Clients must also pass the keys which the simulation function abstraction layer should use in storing the calculation output values in the database.
 
+An example:
+
 ```json
 {
-  "model":"base-weather",
-  "inputs":{
-    "":""}
-  "outputs":{
+  "model" : "cid",
+  "timestep" : 7,
+  "inputs" : {
+    "startDate" : "branch01~subBranch02~startDate~0",
+    "location" : "branch01~subBranch02~location~0",
+    "temperature" : "branch01~subBranch02~temperature~7",
+    "randomSeed" : "branch01~subBranch02~randomSeeForCid~7"
+    "weekToSimulate" : "$timestep"
     }
-  
+  "outputs":{
+    "demand" : "branch01~subBranch02~cidDemand~7"
+    }
 }
 ```
-
-TODO: finish the weather model example
