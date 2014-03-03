@@ -30,3 +30,10 @@ An example:
     }
 }
 ```
+
+Some things to note:
+ * Every request will contain the following keys: ```model```, ```timestep```, ```inputs```, and ```outputs```.
+   * ```model``` is the name of the simulation function to run. For SFPs connected to the simulation function abstract layer using LAPIS, the value of associated with ```model``` must match the value of a read-only published variable. The name of the published variable has not yet been determined.
+   * ```timestep``` is the timestep for the calculation. Every calculation will have a timestep.
+   * ```inputs``` maps to a JSON object whose keys are the names of input variables published by the SFP using LAPIS. These are the simulation function inputs. The value associated with each key is a string, and that string is used as a key into the database to retrieve the actual value to pass as an input to the SFP.
+   * ```outputs``` maps to a JSON object whose keys are the names of the output variables published by an SFP using LAPIS. These are the simulation function outputs. The value of each key is a string, and that string is used as a key to save the actual output values in the database.
